@@ -1,0 +1,18 @@
+{
+    "name": "icedev/simple-message-transport",
+    "description": "A few simple classes to send and receive messages",
+    "authors": [
+        {
+            "name": "Fabian Santer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "symfony/messenger": "^5.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {"icedev\\SimpleMessageTransport\\": "src/"}
+    }
+}
