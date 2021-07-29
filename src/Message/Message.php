@@ -1,6 +1,6 @@
 <?php
 
-namespace icedev\SimpleMessageTransport\Message;
+namespace Icedev\SimpleMessageTransport\Message;
 
 class Message
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace icedev\SimpleMessageTransport\Handler;
+namespace Icedev\SimpleMessageTransport\Handler;
 
 use Icedev\SimpleMessageTransport\Message\Message;
 use Psr\Log\LoggerInterface;

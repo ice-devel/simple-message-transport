@@ -1,6 +1,6 @@
 <?php
 
-namespace icedev\SimpleMessageTransport\Sender;
+namespace Icedev\SimpleMessageTransport\Sender;
 
 use Icedev\SimpleMessageTransport\Message\Message;
 use Symfony\Component\Messenger\MessageBusInterface;

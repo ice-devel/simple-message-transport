@@ -13,6 +13,6 @@
         "ext-json": "*"
     },
     "autoload": {
-        "psr-4": {"icedev\\SimpleMessageTransport\\": "src/"}
+        "psr-4": {"Icedev\\SimpleMessageTransport\\": "src/"}
     }
 }
