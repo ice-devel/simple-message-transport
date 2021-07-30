@@ -2,11 +2,9 @@
 
 namespace Icedev\SimpleMessageTransport\Message;
 
-class Message
+class MessageApi
 {
     private string $data;
-    private ?string $type;
-    private ?string $route;
     private ?string $method;
     private ?string $url;
 
@@ -18,30 +16,6 @@ class Message
     public function setData(string $data): self
     {
         $this->data = $data;
-
-        return $this;
-    }
-
-    public function getType(): ?string
-    {
-        return $this->type;
-    }
-
-    public function setType(?string $type): self
-    {
-        $this->type = $type;
-
-        return $this;
-    }
-
-    public function getRoute(): ?string
-    {
-        return $this->route;
-    }
-
-    public function setRoute(?string $route): self
-    {
-        $this->route = $route;
 
         return $this;
     }

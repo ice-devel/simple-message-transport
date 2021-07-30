@@ -6,7 +6,7 @@ use Icedev\SimpleMessageTransport\Message\Message;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Messenger\Handler\MessageHandlerInterface;
 
-class Handler implements MessageHandlerInterface
+class MessageHandler implements MessageHandlerInterface
 {
     private LoggerInterface $logger;
 

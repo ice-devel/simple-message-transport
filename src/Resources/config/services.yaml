@@ -5,3 +5,5 @@ services:
         autoconfigure: true
 
     Icedev\SimpleMessageTransport\Sender\Sender: ~
+    Icedev\SimpleMessageTransport\Sender\MessageHandler: ~
+    Icedev\SimpleMessageTransport\Sender\MessageApiHandler: ~
